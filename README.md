@@ -8,5 +8,7 @@ Each line of notes is an instantiation of the class Section. These have two func
 The toggle function works by testing if the user clicked on the button, and will change a boolean from true to false or vice versa.
 The display function will take that into account when displaying, and show "..." when the boolean is false, but the actual line when it's true.
 
+The code can be found in the src folder.
+
 ![Demonstration 1](images/demonstration1.PNG)
 ![Demonstration 2](images/demonstration2.PNG)
