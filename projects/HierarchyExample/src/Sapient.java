@@ -3,11 +3,13 @@ public class Sapient {
 	//Attributes
 	private int age;
 	private String name;
+	private boolean enjoysScrabble;
 	
 	//Constructor
-	public Sapient(int age, String name) {
+	public Sapient(int age, String name, boolean enjoysScrabble) {
 		this.age = age;
 		this.name = name;
+		this.enjoysScrabble = enjoysScrabble;
 	}
 	
 	//Getters
@@ -25,5 +27,4 @@ public class Sapient {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 }
